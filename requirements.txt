@@ -1,0 +1,13 @@
+﻿# CohortX Task 1 — System C dependencies
+# Python 3.10+ (developed on the Kaggle CPU environment)
+pandas
+numpy
+scikit-learn
+sentence-transformers
+spacy
+nltk
+beautifulsoup4
+lxml
+word2number
+kagglehub
+openpyxl
