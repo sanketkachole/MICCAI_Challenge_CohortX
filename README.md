@@ -1,6 +1,6 @@
-﻿# CohortX Task 1 - System C (Sanket Kachole)
+﻿# CohortX Task 1 - Extracting Cohort Selection Criteria from Free-Texts
 
-Extraction of six cohort-selection fields (conditions, study type, sex, minimum
+MICCAI Challenge 2026, Extraction of six cohort-selection fields (conditions, study type, sex, minimum
 age, maximum age, eligibility criteria) from PubMed Central NXML articles for the
 MICCAI 2026 CohortX Challenge, Task 1.
 
@@ -20,9 +20,8 @@ registry lookup, no network APIs at inference. Runs offline on CPU.
   (18 years / "Not Specified") with result-statistic, case-report, and animal-age
   suppression.
 
-No neural network is trained. BioBERT is used frozen (embeddings only); the only
-trained component is the gradient-boosting ranker, rebuilt from training data each
-run. Full details are in the accompanying CohortX Task 1 paper (System C).
+BioBERT is used frozen (embeddings only); the only trained component is the gradient-boosting ranker, rebuilt from training data each
+run.
 
 ## Installation
 
