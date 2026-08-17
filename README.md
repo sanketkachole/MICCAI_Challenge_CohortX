@@ -1,22 +1,22 @@
-﻿# CohortX Task 1 — System C (Sanket Kachole)
+﻿# CohortX Task 1 - System C (Sanket Kachole)
 
 Extraction of six cohort-selection fields (conditions, study type, sex, minimum
 age, maximum age, eligibility criteria) from PubMed Central NXML articles for the
 MICCAI 2026 CohortX Challenge, Task 1.
 
-Uses **only the provided competition data** — no external datasets, no trial-
+Uses **only the provided competition data** - no external datasets, no trial-
 registry lookup, no network APIs at inference. Runs offline on CPU.
 
 ## Method (summary)
 
-- **Eligibility criteria** — supervised passage ranking. Articles are parsed into
+- **Eligibility criteria** - supervised passage ranking. Articles are parsed into
   sections; candidate passages are generated and filtered, encoded with a frozen
   BioBERT sentence encoder, and scored by a gradient-boosting regressor trained on
   the 416 training articles to predict FM3S similarity to the reference. Top-ranked
   passages are assembled under inclusion/exclusion headings.
-- **Conditions** — training-derived disease vocabulary matched in title/abstract/
+- **Conditions** - training-derived disease vocabulary matched in title/abstract/
   keywords, with a generic fallback.
-- **Study type / sex / age** — high-precision rules; data-driven age defaults
+- **Study type / sex / age** - high-precision rules; data-driven age defaults
   (18 years / "Not Specified") with result-statistic, case-report, and animal-age
   suppression.
 
