@@ -27,8 +27,8 @@ run.
 
 1. Clone this repository:
 
-       git clone https://github.com/<your-username>/MICCAI_Challenge_CohortX.git
-       cd MICCAI_CohortX
+	git clone https://github.com/sanketkachole/MICCAI_Challenge_CohortX.git
+	cd MICCAI_Challenge_CohortX
 
 2. Create and activate a Python 3.10+ environment (example with conda):
 
