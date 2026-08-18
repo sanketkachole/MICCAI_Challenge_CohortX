@@ -1,4 +1,4 @@
-﻿# 🏆 CohortX Challenge 2026 — Task 1 Winning Solution (1st Place) 
+﻿# 🏆 CohortX Challenge 2026 - Task 1 Winning Solution (1st Place) 
 
 Extracting Cohort Selection Criteria from Free-Texts (MICCAI 2026)
 
