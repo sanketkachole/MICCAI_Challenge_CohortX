@@ -1,4 +1,6 @@
-﻿# CohortX Task 1 - Extracting Cohort Selection Criteria from Free-Texts
+﻿# 🏆 CohortX Challenge 2026 — Task 1 Winning Solution (1st Place)
+
+Extracting Cohort Selection Criteria from Free-Texts (MICCAI 2026)
 
 MICCAI Challenge 2026, Extraction of six cohort-selection fields (conditions, study type, sex, minimum
 age, maximum age, eligibility criteria) from PubMed Central NXML articles for the
